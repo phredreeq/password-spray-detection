@@ -72,7 +72,7 @@ event_id=4625
 count as total_failures
 by ip_address
 | sort -unique_users
-Counts how many different usernames each IP targeted.
+Count how many different usernames each IP targeted.
 This is the key difference from brute force detection —
 we look for unique accounts, not just total failures.
 
