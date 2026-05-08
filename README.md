@@ -114,35 +114,35 @@ exactly which accounts were targeted and when.
 ### Query 1 — All Failed Logins
 
 
-![Query 1](screenshots/query1_spray_failures.png)
+![Query 1](screenshot/query1_spray_failures.png)
 
 
 
 ### Query 2 — Distinct Users Per IP
 
 
-![Query 2](screenshots/query2_spray_unique_users.png)
+![Query 2](screenshot/query2_spray_unique_users.png)
 
 
 
 ### Query 3 — Threshold Detection
 
 
-![Query 3](screenshots/query3_spray_threshold.png)
+![Query 3](screenshot/query3_spray_threshold.png)
 
 
 
 ### Query 4 — Smoking Gun
 
 
-![Query 4](screenshots/query4_spray_smoking_gun.png)
+![Query 4](screenshot/query4_spray_smoking_gun.png)
 
 
 
 ### Query 5 — Attack Timeline
 
 
-![Query 5](screenshots/query5_spray_timeline.png)
+![Query 5](screenshot/query5_spray_timeline.png)
 
 
 
