@@ -1,9 +1,9 @@
-# 🔍 Password Spray Detection Using Splunk
+# Password Spray Detection Using Splunk
 ## SIEM-Based Detection of Password Spray Attacks
 
 ---
 
-## 📌 Problem
+## Problem
 Unlike brute force attacks that target one account 
 with many passwords, password spray attacks try one 
 password against many accounts — deliberately staying 
@@ -15,7 +15,7 @@ Windows authentication logs.
 
 ---
 
-## ⚔️ Brute Force vs Password Spray
+## Brute Force vs Password Spray
 
 | Attack Type | Method | Detection Challenge |
 |---|---|---|
@@ -24,7 +24,7 @@ Windows authentication logs.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Simulate a realistic password spray attack in Python
 - Ingest logs into Splunk SIEM for analysis
 - Write SPL queries to detect the spray pattern
@@ -32,7 +32,7 @@ Windows authentication logs.
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 | Tool | Purpose |
 |---|---|
 | **Splunk** | SIEM platform for log analysis |
@@ -42,7 +42,7 @@ Windows authentication logs.
 
 ---
 
-## 🗃️ Logs Used
+## Logs Used
 Simulated Windows Authentication Logs (CSV format)
 
 | Event ID | Meaning |
@@ -58,7 +58,7 @@ Simulated Windows Authentication Logs (CSV format)
 
 ---
 
-## 🔎 Detection Queries (SPL)
+## Detection Queries (SPL)
 
 ### Query 1 — Find All Failed Logins
 index=main source="password_spray_logs.csv"
@@ -109,7 +109,7 @@ exactly which accounts were targeted and when.
 
 ---
 
-## 📸 Results
+## Results
 
 ### Query 1 — All Failed Logins
 
@@ -148,7 +148,7 @@ exactly which accounts were targeted and when.
 
 ---
 
-## 🧠 Analysis
+## Analysis
 
 ### Attack Reconstruction
 03:00:00 - admin  - 4625 - failure ❌
@@ -196,7 +196,7 @@ account must be treated as fully compromised.
 
 ---
 
-## ✅ Conclusion & Recommendations
+## Conclusion & Recommendations
 
 ### Immediate Actions
 | Priority | Action |
